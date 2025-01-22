@@ -21,6 +21,13 @@ for (let i = 0; i < 10; i++) {
     axios.get(endpoint)
         .then(responseEmail => {
             const risultato = responseEmail.data.response
+
+            // Creazione di un elemento <li> per ogni email
+            const listItem = document.createElement("li");
+            listItem.textContent = risultato;
+
+            // Aggiungo l'email alla lista HTML
+            outPutEmail.appendChild(listItem);
             
         })
 
