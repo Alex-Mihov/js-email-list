@@ -1,0 +1,13 @@
+#emails li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    list-style-type: none;
+
+}
+
+#emails li:hover {
+    background-color: #e9ecef;
+}
