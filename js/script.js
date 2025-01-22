@@ -9,6 +9,7 @@
 // selezione output in html 
 const outPutEmail = document.getElementById("emails");
 
+
 // creazione ciclo for per generare le 10 email
 for (let i = 0; i < 10; i++) {
 
@@ -20,6 +21,7 @@ for (let i = 0; i < 10; i++) {
     axios.get(endpoint)
         .then(responseEmail => {
             const risultato = responseEmail.data.response
+            
         })
 
         .catch(error => {
